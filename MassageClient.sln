@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassageClient", "MassageClient.csproj", "{DFF15930-D0DD-490D-B622-E693A623C469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{73AF3862-EE6C-4473-9199-F9A155E3A953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Context", "..\DataAccess.Context\DataAccess.Context.csproj", "{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Entities", "..\DataAccess.Entities\DataAccess.Entities.csproj", "{ECE976BC-9002-4ACA-8B56-65CF41224409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Repository.Abstraction", "..\DataAccess.Repository.Abstraction\DataAccess.Repository.Abstraction.csproj", "{3BD0A78C-58E8-4C3F-8759-4B837F352F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Repository.Implementations", "..\DataAccess.Repository.Implementations\DataAccess.Repository.Implementations.csproj", "{434A6FA3-2A03-4D80-822E-A9015C30BA30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF15930-D0DD-490D-B622-E693A623C469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF15930-D0DD-490D-B622-E693A623C469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF15930-D0DD-490D-B622-E693A623C469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF15930-D0DD-490D-B622-E693A623C469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE976BC-9002-4ACA-8B56-65CF41224409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE976BC-9002-4ACA-8B56-65CF41224409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE976BC-9002-4ACA-8B56-65CF41224409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE976BC-9002-4ACA-8B56-65CF41224409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD0A78C-58E8-4C3F-8759-4B837F352F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD0A78C-58E8-4C3F-8759-4B837F352F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD0A78C-58E8-4C3F-8759-4B837F352F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD0A78C-58E8-4C3F-8759-4B837F352F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434A6FA3-2A03-4D80-822E-A9015C30BA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434A6FA3-2A03-4D80-822E-A9015C30BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434A6FA3-2A03-4D80-822E-A9015C30BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434A6FA3-2A03-4D80-822E-A9015C30BA30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBCC91EF-8F27-4DD1-835A-56BD7D79EDF7} = {73AF3862-EE6C-4473-9199-F9A155E3A953}
+		{ECE976BC-9002-4ACA-8B56-65CF41224409} = {73AF3862-EE6C-4473-9199-F9A155E3A953}
+		{3BD0A78C-58E8-4C3F-8759-4B837F352F84} = {73AF3862-EE6C-4473-9199-F9A155E3A953}
+		{434A6FA3-2A03-4D80-822E-A9015C30BA30} = {73AF3862-EE6C-4473-9199-F9A155E3A953}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D74BA6-F256-4C72-99FE-61C9B3A9CAE1}
+	EndGlobalSection
+EndGlobal
